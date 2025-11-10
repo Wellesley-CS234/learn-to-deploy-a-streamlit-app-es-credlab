@@ -209,3 +209,5 @@ elif option_key == "5":
         color_discrete_map={'No': '#ef553b', 'Yes': '#636efa'}
     )
     st.plotly_chart(fig, use_container_width=True)
+
+    print('complete')
